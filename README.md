@@ -29,9 +29,8 @@
     if (detectFlashPlayer()) {
 
     } else {
-        document.write("This Requires Flash, Get Flash: (https://cdn.cleanflash.org/CleanFlash_34.0.0.308_Installer.exe)");
+        document.write("This Requires Flash, Get Flash: (https://ruffle.rs)");
     }
-</script></head><body style="margin:0px">This Requires Flash, Get Flash: (https://cdn.cleanflash.org/CleanFlash_34.0.0.308_Installer.exe)
 
 	
 
@@ -42,7 +41,7 @@
 					<button id="import-toggle" onclick="document.getElementById('importer-files').click()" class="import-button">UPLOAD FILES</button>
 					<h3 class="close-button" onclick="hideImporter()">✖</h3>
 					<form>
-						<input id="importer-files" type="file" name="file" title="Upload Files" accept=".mp3,.wav,.ogg,.wma,.swf,.gif,.png,.jpg,.mp4" style="display:none">
+						<input id="importer-files" type="file" name="file" title="Upload Files" accept="" style="display:none">
 					</form>
 				</nav>
 				<div id="importer-queue"></div>
